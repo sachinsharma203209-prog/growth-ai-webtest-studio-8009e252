@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#4338ca"/></linearGradient>
+    <radialGradient id="hl" cx="0.82" cy="0.14" r="0.9">
+      <stop offset="0" stop-color="#FF7AB6" stop-opacity="0.40"/><stop offset="1" stop-color="#FF7AB6" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#hl)"/>
+  <circle cx="980" cy="180" r="250" fill="#ffffff" opacity="0.10" filter="url(#blur)"/>
+  <circle cx="170" cy="780" r="210" fill="#000000" opacity="0.12" filter="url(#blur)"/>
+  <g transform="translate(905,120) scale(15)" fill="#ffffff" opacity="0.16"><circle cx='6' cy='7' r='2.4'/><circle cx='6' cy='17' r='2.4'/><path d='M8 8.2 20 16M8 15.8 20 8M8 12h9' stroke='#fff' stroke-width='1.6' fill='none'/></g>
+  <g transform="translate(150,470) scale(9)" fill="#ffffff" opacity="0.10"><circle cx='6' cy='7' r='2.4'/><circle cx='6' cy='17' r='2.4'/><path d='M8 8.2 20 16M8 15.8 20 8M8 12h9' stroke='#fff' stroke-width='1.6' fill='none'/></g>
+  <g transform="translate(640,560) scale(6)" fill="#FF7AB6" opacity="0.55"><circle cx='6' cy='7' r='2.4'/><circle cx='6' cy='17' r='2.4'/><path d='M8 8.2 20 16M8 15.8 20 8M8 12h9' stroke='#fff' stroke-width='1.6' fill='none'/></g>
+  <text x="90" y="120" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700"
+        fill="#FF7AB6" letter-spacing="6">BEAUTY</text>
+  <text x="88" y="430" font-family="'Sora',Inter,Arial,sans-serif" font-size="74" font-weight="800"
+        fill="#ffffff"><tspan x='88' dy='0'>WebTest Studio</tspan></text>
+  <rect x="90" y="470" width="74" height="6" rx="3" fill="#FF7AB6"/>
+  <text x="90" y="540" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="600"
+        fill="#ffffff" opacity="0.9">Salon</text>
+</svg>
